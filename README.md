@@ -1,20 +1,20 @@
-node-job-queue
+Kue
 ===============
 
-Implementation of a nested asynchronous job queue in Node.js using [Kue](http://github.com/learnboost/kue)
+Ejemplo de uso de Kue
 
-Find the full tutorial on creating a simple job queue at [medium.com/p/ffcfbc824b01](https://medium.com/p/ffcfbc824b01)
-
-A redis-server must be running on your system.
-
-Clone this repo:
+Para poner a prueba los ejemplos
 
     git clone https://github.com/prateekbhatt/node-job-queue
 
-Enter the root directory:
+Luego:
     
     cd node-job-queue
 
-Test a simple job queue
+después
+
+    npm install
+
+Y con node :
 
     node simple-job-queue.js
